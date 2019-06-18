@@ -4,7 +4,7 @@ const { interface , bytecode} = require('./compile');
 
 const provider = new HDWalletProvider(
   '"Metamask account secret words"',
-  'https://rinkeby.infura.io/v3/"Rinkeby-api-key here"'
+  'https://rinkeby.infura.io/v3/"Infura-api-key here"'
 );
 
 const web3 = new Web3(provider);
